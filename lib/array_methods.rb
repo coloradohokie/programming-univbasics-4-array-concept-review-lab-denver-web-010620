@@ -9,7 +9,12 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  # Add your solution here
+  i = 0
+  max_value = array[0]
+  while i < array.legth do
+    if array[i] > max_value
+      max_value = array[i]
+    end
 end
 
 def find_min_value(array)
